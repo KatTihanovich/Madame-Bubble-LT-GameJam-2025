@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ConfirmationScript : MonoBehaviour
 {
@@ -12,5 +13,12 @@ public class ConfirmationScript : MonoBehaviour
     public void Pause(){
         confirmationUI.SetActive(true);
         Time.timeScale = 0f;
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        Scene currentScene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(currentScene.name);
     }
 }

@@ -1032,7 +1032,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1126,7 +1126,7 @@ GameObject:
   - component: {fileID: 1877247252}
   m_Layer: 0
   m_Name: AudioManager
-  m_TagString: Untagged
+  m_TagString: Audio
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1145,7 +1145,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MusicSource: {fileID: 1722851076}
   FXSource: {fileID: 1369737265}
-  background: {fileID: 0}
+  background: {fileID: 8300000, guid: acd81fb0bf3464175a4d6a510260041a, type: 3}
+  text: {fileID: 8300000, guid: a2b2e50ed6ace472fb81c0d882465d51, type: 3}
 --- !u!4 &1877247253
 Transform:
   m_ObjectHideFlags: 0

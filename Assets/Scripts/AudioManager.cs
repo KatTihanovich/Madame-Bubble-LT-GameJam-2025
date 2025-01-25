@@ -3,11 +3,12 @@ using UnityEngine.Audio;
 public class AudioManager : MonoBehaviour
 {
     [Header("Audio Sources")]
-    [SerializeField] AudioSource MusicSource;
-    [SerializeField] AudioSource FXSource;
+    [SerializeField] public AudioSource MusicSource;
+    [SerializeField] public AudioSource FXSource;
 
     [Header("Audio Clips")]
     [SerializeField] AudioClip background;
+    [SerializeField] public AudioClip text;
 
     // [Header("Volume Settings")]
     // public SoundManager soundManager;
