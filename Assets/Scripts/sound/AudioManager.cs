@@ -15,16 +15,16 @@ public class AudioManager : MonoBehaviour
 
     public static AudioManager instance; 
 
-    private void Awake(){
-        if (instance == null)
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        } else
-        {
-            Destroy(gameObject);
-        }
-    }
+    // private void Awake(){
+    //     if (instance == null)
+    //     {
+    //         instance = this;
+    //         DontDestroyOnLoad(gameObject);
+    //     } else
+    //     {
+    //         Destroy(gameObject);
+    //     }
+    // }
     private void Start(){
         // if (PlayerPrefs.HasKey("musicVolume")){
         //     soundManager.LoadValue();
