@@ -159,6 +159,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -659,7 +672,29 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      1.1. Interpretation in love_0: 5449879098599917690
+      1.1. Interpretation in love_1: -609494907557438822
+      1.1. Interpretation in love_10: 5368790152948660256
+      1.1. Interpretation in love_11: -7916867599693775086
+      1.1. Interpretation in love_12: 6278918463616216379
+      1.1. Interpretation in love_13: 3017188986624674229
+      1.1. Interpretation in love_14: -4292119661082765260
+      1.1. Interpretation in love_15: -6136338457151177353
+      1.1. Interpretation in love_16: -5096184128839436524
+      1.1. Interpretation in love_17: 3678604801160335001
+      1.1. Interpretation in love_18: -8146432191667082155
+      1.1. Interpretation in love_19: -5625738983725459848
+      1.1. Interpretation in love_2: 3751234359416274823
+      1.1. Interpretation in love_20: 3119525309192437030
+      1.1. Interpretation in love_21: -8896752610663667041
+      1.1. Interpretation in love_3: -7914594269562572501
+      1.1. Interpretation in love_4: -656890234910285051
+      1.1. Interpretation in love_5: 2186661358948922038
+      1.1. Interpretation in love_6: 5130665369313248967
+      1.1. Interpretation in love_7: 658522318565525293
+      1.1. Interpretation in love_8: 2980892670536668619
+      1.1. Interpretation in love_9: 7100643501100853011
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

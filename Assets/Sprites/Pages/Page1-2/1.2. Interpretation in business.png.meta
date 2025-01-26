@@ -165,6 +165,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -709,7 +722,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "1.2. Interpretation in\_business_0": -6051077683782203672
+      "1.2. Interpretation in\_business_1": 8725743208206623875
+      "1.2. Interpretation in\_business_10": 3180930950081772526
+      "1.2. Interpretation in\_business_11": -6456505079523369271
+      "1.2. Interpretation in\_business_12": -6766717734372998795
+      "1.2. Interpretation in\_business_13": 7450633994343643046
+      "1.2. Interpretation in\_business_14": -6926324978338894834
+      "1.2. Interpretation in\_business_15": 632783291611198371
+      "1.2. Interpretation in\_business_16": 2396310094175532993
+      "1.2. Interpretation in\_business_17": 2962169610300417553
+      "1.2. Interpretation in\_business_18": -7381168390936557428
+      "1.2. Interpretation in\_business_19": -2085476180182795493
+      "1.2. Interpretation in\_business_2": 7041782070268071477
+      "1.2. Interpretation in\_business_20": -7501590455692663526
+      "1.2. Interpretation in\_business_21": 1234715177501468447
+      "1.2. Interpretation in\_business_22": -5141231978228121447
+      "1.2. Interpretation in\_business_23": 3783880986801753605
+      "1.2. Interpretation in\_business_3": -7605491424019281770
+      "1.2. Interpretation in\_business_4": 4499199911829988955
+      "1.2. Interpretation in\_business_5": -3575866703756912099
+      "1.2. Interpretation in\_business_6": -5476153714237617653
+      "1.2. Interpretation in\_business_7": 2624158896596558744
+      "1.2. Interpretation in\_business_8": -8673151242106689894
+      "1.2. Interpretation in\_business_9": 4120632372192805605
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

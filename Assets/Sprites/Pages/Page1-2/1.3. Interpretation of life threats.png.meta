@@ -168,6 +168,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -734,7 +747,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "1.3. Interpretation of\_life\_threats_0": -3507234397025272946
+      "1.3. Interpretation of\_life\_threats_1": -6018625267729208932
+      "1.3. Interpretation of\_life\_threats_10": 8431662269871013238
+      "1.3. Interpretation of\_life\_threats_11": -2946838225245956423
+      "1.3. Interpretation of\_life\_threats_12": -8221824270701957209
+      "1.3. Interpretation of\_life\_threats_13": -3668178759680796424
+      "1.3. Interpretation of\_life\_threats_14": 1685227925483621089
+      "1.3. Interpretation of\_life\_threats_15": -4647199232333438866
+      "1.3. Interpretation of\_life\_threats_16": 2146588137025594252
+      "1.3. Interpretation of\_life\_threats_17": -9074237961725219441
+      "1.3. Interpretation of\_life\_threats_18": 7621665829117757009
+      "1.3. Interpretation of\_life\_threats_19": 8604120476680930968
+      "1.3. Interpretation of\_life\_threats_2": 871599821608616236
+      "1.3. Interpretation of\_life\_threats_20": -738421161691071289
+      "1.3. Interpretation of\_life\_threats_21": 5084118220640192320
+      "1.3. Interpretation of\_life\_threats_22": 3725561748886543580
+      "1.3. Interpretation of\_life\_threats_23": 8558278748021701138
+      "1.3. Interpretation of\_life\_threats_24": -3458376851497223614
+      "1.3. Interpretation of\_life\_threats_3": 5171815266340167766
+      "1.3. Interpretation of\_life\_threats_4": 1717642862330618790
+      "1.3. Interpretation of\_life\_threats_5": -6559024431144265619
+      "1.3. Interpretation of\_life\_threats_6": -1959098023758330018
+      "1.3. Interpretation of\_life\_threats_7": -5925425944125162702
+      "1.3. Interpretation of\_life\_threats_8": 4568844455683167754
+      "1.3. Interpretation of\_life\_threats_9": 6492873331937285595
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

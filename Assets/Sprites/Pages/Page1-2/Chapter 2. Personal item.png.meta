@@ -153,6 +153,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -609,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Chapter 2. Personal item_0: 7662878235516719486
+      Chapter 2. Personal item_1: 2040402924677422978
+      Chapter 2. Personal item_10: 6206093182219627128
+      Chapter 2. Personal item_11: -3455938383668943176
+      Chapter 2. Personal item_12: 7926604504146215217
+      Chapter 2. Personal item_13: -1078995578025386034
+      Chapter 2. Personal item_14: 2599462254544860350
+      Chapter 2. Personal item_15: 8513515785151193825
+      Chapter 2. Personal item_16: 6969165132315119930
+      Chapter 2. Personal item_17: 6393546615478068327
+      Chapter 2. Personal item_18: -2679599325960668243
+      Chapter 2. Personal item_19: 3599609456891536974
+      Chapter 2. Personal item_2: 6747003622092281481
+      Chapter 2. Personal item_3: -1165878517731999249
+      Chapter 2. Personal item_4: -3550191093307253615
+      Chapter 2. Personal item_5: 6847847180846685392
+      Chapter 2. Personal item_6: 6962403447764426799
+      Chapter 2. Personal item_7: -214742662830489999
+      Chapter 2. Personal item_8: -1626267801273697726
+      Chapter 2. Personal item_9: 708984978717572536
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
