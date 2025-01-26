@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: 34449478ffe922448895a2b866ebf6e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5449879098599917690
+    second: 1.1. Interpretation in love_0
+  - first:
+      213: -609494907557438822
+    second: 1.1. Interpretation in love_1
+  - first:
+      213: 3751234359416274823
+    second: 1.1. Interpretation in love_2
+  - first:
+      213: -7914594269562572501
+    second: 1.1. Interpretation in love_3
+  - first:
+      213: -656890234910285051
+    second: 1.1. Interpretation in love_4
+  - first:
+      213: 2186661358948922038
+    second: 1.1. Interpretation in love_5
+  - first:
+      213: 5130665369313248967
+    second: 1.1. Interpretation in love_6
+  - first:
+      213: 658522318565525293
+    second: 1.1. Interpretation in love_7
+  - first:
+      213: 2980892670536668619
+    second: 1.1. Interpretation in love_8
+  - first:
+      213: 7100643501100853011
+    second: 1.1. Interpretation in love_9
+  - first:
+      213: 5368790152948660256
+    second: 1.1. Interpretation in love_10
+  - first:
+      213: -7916867599693775086
+    second: 1.1. Interpretation in love_11
+  - first:
+      213: 6278918463616216379
+    second: 1.1. Interpretation in love_12
+  - first:
+      213: 3017188986624674229
+    second: 1.1. Interpretation in love_13
+  - first:
+      213: -4292119661082765260
+    second: 1.1. Interpretation in love_14
+  - first:
+      213: -6136338457151177353
+    second: 1.1. Interpretation in love_15
+  - first:
+      213: -5096184128839436524
+    second: 1.1. Interpretation in love_16
+  - first:
+      213: 3678604801160335001
+    second: 1.1. Interpretation in love_17
+  - first:
+      213: -8146432191667082155
+    second: 1.1. Interpretation in love_18
+  - first:
+      213: -5625738983725459848
+    second: 1.1. Interpretation in love_19
+  - first:
+      213: 3119525309192437030
+    second: 1.1. Interpretation in love_20
+  - first:
+      213: -8896752610663667041
+    second: 1.1. Interpretation in love_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 9
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78cfdc5a2cd1ab40800000000000000
+      internalID: 5449879098599917690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 9
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a11ae5c93aa87f0800000000000000
+      internalID: -609494907557438822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 9
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f3f3666cf0f0430800000000000000
+      internalID: 3751234359416274823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_3
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 9
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b217165f176b92290800000000000000
+      internalID: -7914594269562572501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_4
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 30
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503efbbcfc142e6f0800000000000000
+      internalID: -656890234910285051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_5
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 30
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b23938abe4985e10800000000000000
+      internalID: 2186661358948922038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_6
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 9
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6805f48f8c33740800000000000000
+      internalID: 5130665369313248967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d27c3ca4f8a832900800000000000000
+      internalID: 658522318565525293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc557e427124e5920800000000000000
+      internalID: 2980892670536668619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 9
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3176dc7b4ad8a8260800000000000000
+      internalID: 7100643501100853011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_10
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 9
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028be14f236c18a40800000000000000
+      internalID: 5368790152948660256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 9
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ff37a0dd2a12290800000000000000
+      internalID: -7916867599693775086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d6c755313332750800000000000000
+      internalID: 6278918463616216379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_13
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 9
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b90cf7c5653fd920800000000000000
+      internalID: 3017188986624674229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 9
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43811bba8e35f64c0800000000000000
+      internalID: -4292119661082765260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_15
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 9
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d7fe75fa857daa0800000000000000
+      internalID: -6136338457151177353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_16
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 9
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417ba8a1987b649b0800000000000000
+      internalID: -5096184128839436524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_17
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 9
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e453a93970d0330800000000000000
+      internalID: 3678604801160335001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 9
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c60e4551f02fe80800000000000000
+      internalID: -8146432191667082155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_19
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 9
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8761af3633c5de1b0800000000000000
+      internalID: -5625738983725459848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_20
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 9
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d7142adb7ca4b20800000000000000
+      internalID: 3119525309192437030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 1.1. Interpretation in love_21
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 9
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9aecda33a2688480800000000000000
+      internalID: -8896752610663667041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1.1. Interpretation in love_0: 5449879098599917690
+      1.1. Interpretation in love_1: -609494907557438822
+      1.1. Interpretation in love_10: 5368790152948660256
+      1.1. Interpretation in love_11: -7916867599693775086
+      1.1. Interpretation in love_12: 6278918463616216379
+      1.1. Interpretation in love_13: 3017188986624674229
+      1.1. Interpretation in love_14: -4292119661082765260
+      1.1. Interpretation in love_15: -6136338457151177353
+      1.1. Interpretation in love_16: -5096184128839436524
+      1.1. Interpretation in love_17: 3678604801160335001
+      1.1. Interpretation in love_18: -8146432191667082155
+      1.1. Interpretation in love_19: -5625738983725459848
+      1.1. Interpretation in love_2: 3751234359416274823
+      1.1. Interpretation in love_20: 3119525309192437030
+      1.1. Interpretation in love_21: -8896752610663667041
+      1.1. Interpretation in love_3: -7914594269562572501
+      1.1. Interpretation in love_4: -656890234910285051
+      1.1. Interpretation in love_5: 2186661358948922038
+      1.1. Interpretation in love_6: 5130665369313248967
+      1.1. Interpretation in love_7: 658522318565525293
+      1.1. Interpretation in love_8: 2980892670536668619
+      1.1. Interpretation in love_9: 7100643501100853011
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

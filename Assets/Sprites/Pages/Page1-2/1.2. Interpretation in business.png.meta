@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: ec07e4ef92dd0bf4dbc6807503c88e40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6051077683782203672
+    second: "1.2. Interpretation in\_business_0"
+  - first:
+      213: 8725743208206623875
+    second: "1.2. Interpretation in\_business_1"
+  - first:
+      213: 7041782070268071477
+    second: "1.2. Interpretation in\_business_2"
+  - first:
+      213: -7605491424019281770
+    second: "1.2. Interpretation in\_business_3"
+  - first:
+      213: 4499199911829988955
+    second: "1.2. Interpretation in\_business_4"
+  - first:
+      213: -3575866703756912099
+    second: "1.2. Interpretation in\_business_5"
+  - first:
+      213: -5476153714237617653
+    second: "1.2. Interpretation in\_business_6"
+  - first:
+      213: 2624158896596558744
+    second: "1.2. Interpretation in\_business_7"
+  - first:
+      213: -8673151242106689894
+    second: "1.2. Interpretation in\_business_8"
+  - first:
+      213: 4120632372192805605
+    second: "1.2. Interpretation in\_business_9"
+  - first:
+      213: 3180930950081772526
+    second: "1.2. Interpretation in\_business_10"
+  - first:
+      213: -6456505079523369271
+    second: "1.2. Interpretation in\_business_11"
+  - first:
+      213: -6766717734372998795
+    second: "1.2. Interpretation in\_business_12"
+  - first:
+      213: 7450633994343643046
+    second: "1.2. Interpretation in\_business_13"
+  - first:
+      213: -6926324978338894834
+    second: "1.2. Interpretation in\_business_14"
+  - first:
+      213: 632783291611198371
+    second: "1.2. Interpretation in\_business_15"
+  - first:
+      213: 2396310094175532993
+    second: "1.2. Interpretation in\_business_16"
+  - first:
+      213: 2962169610300417553
+    second: "1.2. Interpretation in\_business_17"
+  - first:
+      213: -7381168390936557428
+    second: "1.2. Interpretation in\_business_18"
+  - first:
+      213: -2085476180182795493
+    second: "1.2. Interpretation in\_business_19"
+  - first:
+      213: -7501590455692663526
+    second: "1.2. Interpretation in\_business_20"
+  - first:
+      213: 1234715177501468447
+    second: "1.2. Interpretation in\_business_21"
+  - first:
+      213: -5141231978228121447
+    second: "1.2. Interpretation in\_business_22"
+  - first:
+      213: 3783880986801753605
+    second: "1.2. Interpretation in\_business_23"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_0"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 10
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e64ed518e0460ca0800000000000000
+      internalID: -6051077683782203672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_1"
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 9
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384ee668731181970800000000000000
+      internalID: 8725743208206623875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_2"
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 9
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e0b04eb7f69b160800000000000000
+      internalID: 7041782070268071477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_3"
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 9
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6980d0178ddd37690800000000000000
+      internalID: -7605491424019281770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_4"
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 9
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5668166b7e507e30800000000000000
+      internalID: 4499199911829988955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_5"
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 30
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a1c6ebd28ff5ec0800000000000000
+      internalID: -3575866703756912099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_6"
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 30
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a4e67f53bc004b0800000000000000
+      internalID: -5476153714237617653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_7"
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 9
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893a1d1fc92ea6420800000000000000
+      internalID: 2624158896596558744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_8"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 30
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a962efac5e6c2a780800000000000000
+      internalID: -8673151242106689894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_9"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2078a7f4d6f2930800000000000000
+      internalID: 4120632372192805605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_10"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 9
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb7ba688dfe42c20800000000000000
+      internalID: 3180930950081772526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_11"
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 9
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce118496d2e566a0800000000000000
+      internalID: -6456505079523369271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_12"
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 9
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5718c5b721ac712a0800000000000000
+      internalID: -6766717734372998795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_13"
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 0
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a77d488428f56760800000000000000
+      internalID: 7450633994343643046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_14"
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 9
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ce1332120c0ef90800000000000000
+      internalID: -6926324978338894834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_15"
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 9
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3b9441d0918c800800000000000000
+      internalID: 632783291611198371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_16"
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 9
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7f30f9557614120800000000000000
+      internalID: 2396310094175532993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_17"
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 9
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 116e96af09dbb1920800000000000000
+      internalID: 2962169610300417553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_18"
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 9
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8882ee9472d09990800000000000000
+      internalID: -7381168390936557428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_19"
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 9
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b7aa4a676ee03e0800000000000000
+      internalID: -2085476180182795493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_20"
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 9
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a156af5c93ff4e790800000000000000
+      internalID: -7501590455692663526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_21"
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 9
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1722c189e6922110800000000000000
+      internalID: 1234715177501468447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_22"
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 9
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99085d551cca6a8b0800000000000000
+      internalID: -5141231978228121447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.2. Interpretation in\_business_23"
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 9
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e4caaa5bb038430800000000000000
+      internalID: 3783880986801753605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "1.2. Interpretation in\_business_0": -6051077683782203672
+      "1.2. Interpretation in\_business_1": 8725743208206623875
+      "1.2. Interpretation in\_business_10": 3180930950081772526
+      "1.2. Interpretation in\_business_11": -6456505079523369271
+      "1.2. Interpretation in\_business_12": -6766717734372998795
+      "1.2. Interpretation in\_business_13": 7450633994343643046
+      "1.2. Interpretation in\_business_14": -6926324978338894834
+      "1.2. Interpretation in\_business_15": 632783291611198371
+      "1.2. Interpretation in\_business_16": 2396310094175532993
+      "1.2. Interpretation in\_business_17": 2962169610300417553
+      "1.2. Interpretation in\_business_18": -7381168390936557428
+      "1.2. Interpretation in\_business_19": -2085476180182795493
+      "1.2. Interpretation in\_business_2": 7041782070268071477
+      "1.2. Interpretation in\_business_20": -7501590455692663526
+      "1.2. Interpretation in\_business_21": 1234715177501468447
+      "1.2. Interpretation in\_business_22": -5141231978228121447
+      "1.2. Interpretation in\_business_23": 3783880986801753605
+      "1.2. Interpretation in\_business_3": -7605491424019281770
+      "1.2. Interpretation in\_business_4": 4499199911829988955
+      "1.2. Interpretation in\_business_5": -3575866703756912099
+      "1.2. Interpretation in\_business_6": -5476153714237617653
+      "1.2. Interpretation in\_business_7": 2624158896596558744
+      "1.2. Interpretation in\_business_8": -8673151242106689894
+      "1.2. Interpretation in\_business_9": 4120632372192805605
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

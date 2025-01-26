@@ -1,0 +1,69 @@
+
+GUPPELLA.png
+size: 2663,774
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2, 7
+  size: 1305, 765
+  orig: 1305, 765
+  offset: 0, 0
+  index: -1
+Bubble-1
+  rotate: false
+  xy: 2377, 8
+  size: 133, 134
+  orig: 133, 134
+  offset: 0, 0
+  index: -1
+Bubble-2
+  rotate: false
+  xy: 2377, 8
+  size: 133, 134
+  orig: 133, 134
+  offset: 0, 0
+  index: -1
+Eyes-1
+  rotate: true
+  xy: 2263, 2
+  size: 334, 112
+  orig: 334, 112
+  offset: 0, 0
+  index: -1
+Eyes-2
+  rotate: false
+  xy: 2377, 144
+  size: 265, 87
+  orig: 265, 87
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 1309, 69
+  size: 703, 819
+  orig: 703, 819
+  offset: 0, 0
+  index: -1
+Light
+  rotate: false
+  xy: 2130, 338
+  size: 462, 434
+  orig: 462, 434
+  offset: 0, 0
+  index: -1
+Lips-1
+  rotate: false
+  xy: 2377, 233
+  size: 284, 103
+  orig: 284, 103
+  offset: 0, 0
+  index: -1
+Lips-2
+  rotate: true
+  xy: 2130, 49
+  size: 287, 131
+  orig: 287, 131
+  offset: 0, 0
+  index: -1

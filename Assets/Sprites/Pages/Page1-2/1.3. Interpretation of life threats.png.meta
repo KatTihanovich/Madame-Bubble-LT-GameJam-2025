@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: d21d52257ee0258408b18d69161f5ec5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3507234397025272946
+    second: "1.3. Interpretation of\_life\_threats_0"
+  - first:
+      213: -6018625267729208932
+    second: "1.3. Interpretation of\_life\_threats_1"
+  - first:
+      213: 871599821608616236
+    second: "1.3. Interpretation of\_life\_threats_2"
+  - first:
+      213: 5171815266340167766
+    second: "1.3. Interpretation of\_life\_threats_3"
+  - first:
+      213: 1717642862330618790
+    second: "1.3. Interpretation of\_life\_threats_4"
+  - first:
+      213: -6559024431144265619
+    second: "1.3. Interpretation of\_life\_threats_5"
+  - first:
+      213: -1959098023758330018
+    second: "1.3. Interpretation of\_life\_threats_6"
+  - first:
+      213: -5925425944125162702
+    second: "1.3. Interpretation of\_life\_threats_7"
+  - first:
+      213: 4568844455683167754
+    second: "1.3. Interpretation of\_life\_threats_8"
+  - first:
+      213: 6492873331937285595
+    second: "1.3. Interpretation of\_life\_threats_9"
+  - first:
+      213: 8431662269871013238
+    second: "1.3. Interpretation of\_life\_threats_10"
+  - first:
+      213: -2946838225245956423
+    second: "1.3. Interpretation of\_life\_threats_11"
+  - first:
+      213: -8221824270701957209
+    second: "1.3. Interpretation of\_life\_threats_12"
+  - first:
+      213: -3668178759680796424
+    second: "1.3. Interpretation of\_life\_threats_13"
+  - first:
+      213: 1685227925483621089
+    second: "1.3. Interpretation of\_life\_threats_14"
+  - first:
+      213: -4647199232333438866
+    second: "1.3. Interpretation of\_life\_threats_15"
+  - first:
+      213: 2146588137025594252
+    second: "1.3. Interpretation of\_life\_threats_16"
+  - first:
+      213: -9074237961725219441
+    second: "1.3. Interpretation of\_life\_threats_17"
+  - first:
+      213: 7621665829117757009
+    second: "1.3. Interpretation of\_life\_threats_18"
+  - first:
+      213: 8604120476680930968
+    second: "1.3. Interpretation of\_life\_threats_19"
+  - first:
+      213: -738421161691071289
+    second: "1.3. Interpretation of\_life\_threats_20"
+  - first:
+      213: 5084118220640192320
+    second: "1.3. Interpretation of\_life\_threats_21"
+  - first:
+      213: 3725561748886543580
+    second: "1.3. Interpretation of\_life\_threats_22"
+  - first:
+      213: 8558278748021701138
+    second: "1.3. Interpretation of\_life\_threats_23"
+  - first:
+      213: -3458376851497223614
+    second: "1.3. Interpretation of\_life\_threats_24"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_0"
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 10
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bf645e5ecc35fc0800000000000000
+      internalID: -3507234397025272946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_1"
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 10
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c996fc0053c897ca0800000000000000
+      internalID: -6018625267729208932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_2"
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 10
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2186497b6b881c00800000000000000
+      internalID: 871599821608616236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_3"
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 10
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650e522559af5c740800000000000000
+      internalID: 5171815266340167766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_4"
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 31
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3a334351b46d710800000000000000
+      internalID: 1717642862330618790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_5"
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 0
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d689984f70aa9f4a0800000000000000
+      internalID: -6559024431144265619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_6"
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 10
+        width: 10
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5707b52ab2efc4e0800000000000000
+      internalID: -1959098023758330018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_7"
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b39818f78a4cda0800000000000000
+      internalID: -5925425944125162702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_8"
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 10
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a06120f53dbc76f30800000000000000
+      internalID: 4568844455683167754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_9"
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 10
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd59ab905e15b1a50800000000000000
+      internalID: 6492873331937285595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_10"
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 10
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67db9bd5928430570800000000000000
+      internalID: 8431662269871013238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_11"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b61ca54f3aba17d0800000000000000
+      internalID: -2946838225245956423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_12"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 10
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afef1b036636ed80800000000000000
+      internalID: -8221824270701957209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_13"
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 5
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8d7985ad2081dc0800000000000000
+      internalID: -3668178759680796424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_14"
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 10
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea05089ed1236710800000000000000
+      internalID: 1685227925483621089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_15"
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 10
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e602c4c8be4d18fb0800000000000000
+      internalID: -4647199232333438866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_16"
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 10
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c836a7a99863acd10800000000000000
+      internalID: 2146588137025594252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_17"
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8de004b6a4d11280800000000000000
+      internalID: -9074237961725219441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_18"
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 10
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1560c45b0b895c960800000000000000
+      internalID: 7621665829117757009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_19"
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 10
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8964b39acf9f76770800000000000000
+      internalID: 8604120476680930968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_20"
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 10
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ccb5c2add990c5f0800000000000000
+      internalID: -738421161691071289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_21"
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 10
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0478959b59a6e8640800000000000000
+      internalID: 5084118220640192320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_22"
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 10
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc5a27fbaad3b330800000000000000
+      internalID: 3725561748886543580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_23"
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 10
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21abb987d2d15c670800000000000000
+      internalID: 8558278748021701138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "1.3. Interpretation of\_life\_threats_24"
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 10
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24af21ba3906100d0800000000000000
+      internalID: -3458376851497223614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "1.3. Interpretation of\_life\_threats_0": -3507234397025272946
+      "1.3. Interpretation of\_life\_threats_1": -6018625267729208932
+      "1.3. Interpretation of\_life\_threats_10": 8431662269871013238
+      "1.3. Interpretation of\_life\_threats_11": -2946838225245956423
+      "1.3. Interpretation of\_life\_threats_12": -8221824270701957209
+      "1.3. Interpretation of\_life\_threats_13": -3668178759680796424
+      "1.3. Interpretation of\_life\_threats_14": 1685227925483621089
+      "1.3. Interpretation of\_life\_threats_15": -4647199232333438866
+      "1.3. Interpretation of\_life\_threats_16": 2146588137025594252
+      "1.3. Interpretation of\_life\_threats_17": -9074237961725219441
+      "1.3. Interpretation of\_life\_threats_18": 7621665829117757009
+      "1.3. Interpretation of\_life\_threats_19": 8604120476680930968
+      "1.3. Interpretation of\_life\_threats_2": 871599821608616236
+      "1.3. Interpretation of\_life\_threats_20": -738421161691071289
+      "1.3. Interpretation of\_life\_threats_21": 5084118220640192320
+      "1.3. Interpretation of\_life\_threats_22": 3725561748886543580
+      "1.3. Interpretation of\_life\_threats_23": 8558278748021701138
+      "1.3. Interpretation of\_life\_threats_24": -3458376851497223614
+      "1.3. Interpretation of\_life\_threats_3": 5171815266340167766
+      "1.3. Interpretation of\_life\_threats_4": 1717642862330618790
+      "1.3. Interpretation of\_life\_threats_5": -6559024431144265619
+      "1.3. Interpretation of\_life\_threats_6": -1959098023758330018
+      "1.3. Interpretation of\_life\_threats_7": -5925425944125162702
+      "1.3. Interpretation of\_life\_threats_8": 4568844455683167754
+      "1.3. Interpretation of\_life\_threats_9": 6492873331937285595
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

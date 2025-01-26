@@ -1,0 +1,378 @@
+{
+"skeleton": {
+	"hash": "jAjk6aZAElurAgShsYoHGXso1BY",
+	"spine": "3.8",
+	"x": -684,
+	"y": -30,
+	"width": 1374,
+	"height": 1442,
+	"images": "./Cauldron Anim/",
+	"audio": "D:/СЕССИЯ/Зима 2025/GADALKA/Cauldron Anim"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": -30.61, "y": 253.81 },
+	{ "name": "Bubble2", "parent": "bone", "x": -220.13, "y": 238.26 },
+	{ "name": "Bubble", "parent": "bone", "x": 41.83, "y": 329.55 },
+	{ "name": "Bubble3", "parent": "bone", "x": 287.9, "y": 214.44 },
+	{ "name": "Cauldron_Selection", "parent": "bone", "x": 0.81, "y": 80.82 },
+	{ "name": "Light", "parent": "bone", "x": 28.6, "y": 502.86 },
+	{ "name": "Bubble4", "parent": "Bubble2", "x": -2.56, "y": 1.34 }
+],
+"slots": [
+	{ "name": "Cauldron_Selection", "bone": "Cauldron_Selection", "attachment": "Cauldron_Selection" },
+	{ "name": "Cauldron_B", "bone": "root", "attachment": "Cauldron_B" },
+	{ "name": "Bubble2", "bone": "Bubble2", "attachment": "Bubble" },
+	{ "name": "Bubble3", "bone": "Bubble3", "attachment": "Bubble" },
+	{ "name": "Bubble", "bone": "Bubble", "attachment": "Bubble" },
+	{ "name": "Light", "bone": "Light", "attachment": "Light", "blend": "additive" },
+	{ "name": "Cauldron_F", "bone": "root", "attachment": "Cauldron_F" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Cauldron_B": {
+				"Cauldron_B": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 390, 763, -389, 763, -389, 1027, 390, 1027 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 779,
+					"height": 264
+				}
+			},
+			"Bubble2": {
+				"Bubble": { "x": 5.71, "y": 2.16, "width": 133, "height": 134 }
+			},
+			"Bubble3": {
+				"Bubble": { "x": 3.14, "y": 6.9, "width": 133, "height": 134 }
+			},
+			"Cauldron_F": {
+				"Cauldron_F": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 617, 10, -613, 10, -613, 915, 617, 915 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1230,
+					"height": 905
+				}
+			},
+			"Bubble": {
+				"Bubble": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 71.78, -66.96, -61.22, -66.96, -61.22, 67.04, 71.78, 67.04 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 133,
+					"height": 134
+				}
+			},
+			"Cauldron_Selection": {
+				"Cauldron_Selection": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 719.79, -364.63, -654.21, -364.63, -654.21, 701.37, 719.79, 701.37 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1374,
+					"height": 1066
+				}
+			},
+			"Light": {
+				"Light": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ 397.01, -529.67, -394.99, -529.67, -394.99, 655.33, 397.01, 655.33 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 792,
+					"height": 1185
+				}
+			}
+		}
+	}
+],
+"events": {
+	"MAGIC": {},
+	"SELECTION": {}
+},
+"animations": {
+	"IDLE": {
+		"slots": {
+			"Cauldron_Selection": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Bubble3": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3667, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" }
+				]
+			},
+			"Bubble": {
+				"color": [
+					{ "time": 2.2333, "color": "ffffffff" },
+					{ "time": 2.2667, "color": "ffffff00" }
+				]
+			},
+			"Bubble2": {
+				"color": [
+					{ "time": 1.1, "color": "ffffffff" },
+					{ "time": 1.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.2, "color": "ffffff00" },
+					{ "time": 1.2333, "color": "ffffffff" }
+				]
+			},
+			"Light": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Bubble2": {
+				"translate": [
+					{ "x": 111.84, "y": 579.51 },
+					{ "time": 0.3667, "x": 83.49, "y": 668.61 },
+					{ "time": 1.1667, "x": 136.41, "y": 779.06 },
+					{ "time": 1.2 },
+					{ "time": 1.8667, "x": 147.92, "y": 466.12 },
+					{ "time": 2.3333, "x": 111.84, "y": 579.51 }
+				],
+				"scale": [
+					{ "x": 1.607, "y": 1.607, "curve": 0.379, "c2": 0.6, "c3": 0.723 },
+					{ "time": 0.3667, "x": 1.907, "y": 1.907, "curve": "stepped" },
+					{ "time": 1.1667, "x": 1.907, "y": 1.907 },
+					{ "time": 1.2, "x": 0.223, "y": 0.223, "curve": 0.242, "c3": 0.668, "c4": 0.67 },
+					{ "time": 2.3333, "x": 1.607, "y": 1.607 }
+				]
+			},
+			"Bubble": {
+				"translate": [
+					{},
+					{ "time": 0.6667, "x": -109.59, "y": 521.23 },
+					{ "time": 1.5, "x": -5.35, "y": 740.42 },
+					{ "time": 2.3, "x": -37.42, "y": 817.94 },
+					{ "time": 2.3333 }
+				],
+				"scale": [
+					{ "x": 0.705, "y": 0.705, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.8333, "x": 1.528, "y": 1.528, "curve": "stepped" },
+					{ "time": 2.3, "x": 1.528, "y": 1.528 },
+					{ "time": 2.3333, "x": 0.705, "y": 0.705 }
+				]
+			},
+			"Bubble3": {
+				"translate": [
+					{ "x": -84.2, "y": 648.65 },
+					{ "time": 0.3333, "x": -104.25, "y": 697.65 },
+					{ "time": 0.3667 },
+					{ "time": 1.0333, "x": -85.54, "y": 323.43 },
+					{ "time": 1.8667, "x": -56.13, "y": 580.04 },
+					{ "time": 2.3333, "x": -84.2, "y": 648.65 }
+				],
+				"scale": [
+					{ "x": 2.137, "y": 2.137, "curve": "stepped" },
+					{ "time": 0.3333, "x": 2.137, "y": 2.137 },
+					{ "time": 0.3667 },
+					{ "time": 2.2, "x": 2.137, "y": 2.137 }
+				]
+			}
+		}
+	},
+	"MAGIC": {
+		"slots": {
+			"Cauldron_Selection": {
+				"color": [
+					{ "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "color": "ffffffff" }
+				]
+			},
+			"Bubble3": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3667, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" }
+				]
+			},
+			"Bubble": {
+				"color": [
+					{ "time": 2.2333, "color": "ffffffff" },
+					{ "time": 2.2667, "color": "ffffff00" }
+				]
+			},
+			"Bubble2": {
+				"color": [
+					{ "time": 1.1, "color": "ffffffff" },
+					{ "time": 1.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.2, "color": "ffffff00" },
+					{ "time": 1.2333, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"Bubble": {
+				"translate": [
+					{},
+					{ "time": 0.6667, "x": -109.59, "y": 521.23 },
+					{ "time": 1.5, "x": -5.35, "y": 740.42 },
+					{ "time": 2.3, "x": -37.42, "y": 817.94 },
+					{ "time": 2.3333 }
+				],
+				"scale": [
+					{ "x": 0.705, "y": 0.705, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.8333, "x": 1.528, "y": 1.528, "curve": "stepped" },
+					{ "time": 2.3, "x": 1.528, "y": 1.528 },
+					{ "time": 2.3333, "x": 0.705, "y": 0.705 }
+				]
+			},
+			"Bubble3": {
+				"translate": [
+					{ "x": -84.2, "y": 648.65 },
+					{ "time": 0.3333, "x": -104.25, "y": 697.65 },
+					{ "time": 0.3667 },
+					{ "time": 1.0333, "x": -85.54, "y": 323.43 },
+					{ "time": 1.8667, "x": -56.13, "y": 580.04 },
+					{ "time": 2.3333, "x": -84.2, "y": 648.65 }
+				],
+				"scale": [
+					{ "x": 2.137, "y": 2.137, "curve": "stepped" },
+					{ "time": 0.3333, "x": 2.137, "y": 2.137 },
+					{ "time": 0.3667 },
+					{ "time": 2.2, "x": 2.137, "y": 2.137 }
+				]
+			},
+			"Bubble2": {
+				"translate": [
+					{ "x": 111.84, "y": 579.51 },
+					{ "time": 0.3667, "x": 83.49, "y": 668.61 },
+					{ "time": 1.1667, "x": 136.41, "y": 779.06 },
+					{ "time": 1.2 },
+					{ "time": 1.8667, "x": 147.92, "y": 466.12 },
+					{ "time": 2.3333, "x": 111.84, "y": 579.51 }
+				],
+				"scale": [
+					{ "x": 1.607, "y": 1.607, "curve": 0.379, "c2": 0.6, "c3": 0.723 },
+					{ "time": 0.3667, "x": 1.907, "y": 1.907, "curve": "stepped" },
+					{ "time": 1.1667, "x": 1.907, "y": 1.907 },
+					{ "time": 1.2, "x": 0.223, "y": 0.223, "curve": 0.242, "c3": 0.668, "c4": 0.67 },
+					{ "time": 2.3333, "x": 1.607, "y": 1.607 }
+				]
+			},
+			"Cauldron_Selection": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.5, "x": 1.049, "y": 1.049 }
+				]
+			},
+			"Light": {
+				"scale": [
+					{ "y": 0.118, "curve": 0.784, "c3": 0.822 },
+					{ "time": 0.3, "y": 1.241, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "y": 1.341 }
+				]
+			}
+		},
+		"events": [
+			{ "name": "MAGIC" }
+		]
+	},
+	"SELECTION": {
+		"slots": {
+			"Bubble3": {
+				"color": [
+					{ "time": 0.2333, "color": "ffffffff" },
+					{ "time": 0.2667, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.3667, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff" }
+				]
+			},
+			"Bubble": {
+				"color": [
+					{ "time": 2.2333, "color": "ffffffff" },
+					{ "time": 2.2667, "color": "ffffff00" }
+				]
+			},
+			"Bubble2": {
+				"color": [
+					{ "time": 1.1, "color": "ffffffff" },
+					{ "time": 1.1333, "color": "ffffff00", "curve": "stepped" },
+					{ "time": 1.2, "color": "ffffff00" },
+					{ "time": 1.2333, "color": "ffffffff" }
+				]
+			},
+			"Light": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Bubble2": {
+				"translate": [
+					{ "x": 111.84, "y": 579.51 },
+					{ "time": 0.3667, "x": 83.49, "y": 668.61 },
+					{ "time": 1.1667, "x": 136.41, "y": 779.06 },
+					{ "time": 1.2 },
+					{ "time": 1.8667, "x": 147.92, "y": 466.12 },
+					{ "time": 2.3333, "x": 111.84, "y": 579.51 }
+				],
+				"scale": [
+					{ "x": 1.607, "y": 1.607, "curve": 0.379, "c2": 0.6, "c3": 0.723 },
+					{ "time": 0.3667, "x": 1.907, "y": 1.907, "curve": "stepped" },
+					{ "time": 1.1667, "x": 1.907, "y": 1.907 },
+					{ "time": 1.2, "x": 0.223, "y": 0.223, "curve": 0.242, "c3": 0.668, "c4": 0.67 },
+					{ "time": 2.3333, "x": 1.607, "y": 1.607 }
+				]
+			},
+			"Bubble3": {
+				"translate": [
+					{ "x": -84.2, "y": 648.65 },
+					{ "time": 0.3333, "x": -104.25, "y": 697.65 },
+					{ "time": 0.3667 },
+					{ "time": 1.0333, "x": -85.54, "y": 323.43 },
+					{ "time": 1.8667, "x": -56.13, "y": 580.04 },
+					{ "time": 2.3333, "x": -84.2, "y": 648.65 }
+				],
+				"scale": [
+					{ "x": 2.137, "y": 2.137, "curve": "stepped" },
+					{ "time": 0.3333, "x": 2.137, "y": 2.137 },
+					{ "time": 0.3667 },
+					{ "time": 2.2, "x": 2.137, "y": 2.137 }
+				]
+			},
+			"Bubble": {
+				"translate": [
+					{},
+					{ "time": 0.6667, "x": -109.59, "y": 521.23 },
+					{ "time": 1.5, "x": -5.35, "y": 740.42 },
+					{ "time": 2.3, "x": -37.42, "y": 817.94 },
+					{ "time": 2.3333 }
+				],
+				"scale": [
+					{ "x": 0.705, "y": 0.705, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.8333, "x": 1.528, "y": 1.528, "curve": "stepped" },
+					{ "time": 2.3, "x": 1.528, "y": 1.528 },
+					{ "time": 2.3333, "x": 0.705, "y": 0.705 }
+				]
+			}
+		},
+		"events": [
+			{ "name": "SELECTION" }
+		]
+	}
+}
+}

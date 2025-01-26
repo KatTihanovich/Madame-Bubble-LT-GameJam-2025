@@ -1,0 +1,41 @@
+
+Crystal_Ball.png
+size: 2547,1535
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ball
+  rotate: true
+  xy: 928, 198
+  size: 716, 701
+  orig: 716, 701
+  offset: 0, 0
+  index: -1
+Light
+  rotate: true
+  xy: 1631, 35
+  size: 926, 914
+  orig: 926, 914
+  offset: 0, 0
+  index: -1
+Selection_Ball
+  rotate: false
+  xy: 2, 2
+  size: 924, 912
+  orig: 924, 912
+  offset: 0, 0
+  index: -1
+Selection_Stand
+  rotate: false
+  xy: 2, 916
+  size: 1232, 617
+  orig: 1232, 617
+  offset: 0, 0
+  index: -1
+Stand
+  rotate: false
+  xy: 1236, 963
+  size: 1140, 570
+  orig: 1140, 570
+  offset: 0, 0
+  index: -1

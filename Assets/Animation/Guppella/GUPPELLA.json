@@ -1,0 +1,278 @@
+{
+"skeleton": {
+	"hash": "u9c4I9xxEg8Y+1B6hFAycs5jGQk",
+	"spine": "3.8",
+	"x": -651,
+	"y": -1,
+	"width": 1305,
+	"height": 1353,
+	"images": "./Guppella Anim/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "Body", "parent": "root", "length": 544.26, "rotation": 89.27, "x": -8.97, "y": 27.04 },
+	{ "name": "Head", "parent": "root", "length": 694.11, "rotation": 89.81, "x": -8.97, "y": 585.09 },
+	{ "name": "Eyes-1", "parent": "Head", "x": 377.13, "y": 67.71 },
+	{ "name": "Lips-1", "parent": "Head", "x": 230.24, "y": 17.19 },
+	{ "name": "Light", "parent": "Head", "x": 566.98, "y": -161.71 },
+	{ "name": "Bubble", "parent": "Head", "x": 602.12, "y": -503.66 },
+	{ "name": "Bubble-2", "parent": "Head", "x": 601.08, "y": -508.36 }
+],
+"slots": [
+	{ "name": "Head", "bone": "Head", "attachment": "Head" },
+	{ "name": "Eyes-1", "bone": "Eyes-1", "attachment": "Eyes-1" },
+	{ "name": "Lips-1", "bone": "Lips-1", "attachment": "Lips-1" },
+	{ "name": "Bubble", "bone": "Bubble", "attachment": "Bubble2" },
+	{ "name": "Light", "bone": "Light", "attachment": "Light", "blend": "additive" },
+	{ "name": "Body", "bone": "Body", "attachment": "Body" },
+	{ "name": "Bubble-2", "bone": "Bubble-2", "attachment": "Bubble-2" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Head": {
+				"Head": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -61.89, -363.17, -64.23, 341.82, 756.77, 344.55, 759.11, -360.45 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 703,
+					"height": 819
+				}
+			},
+			"Body": {
+				"Body": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -19.61, -663.27, -36.2, 641.63, 728.74, 651.35, 745.33, -653.55 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 1305,
+					"height": 765
+				}
+			},
+			"Lips-1": {
+				"Lips-1": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -45.83, -168.55, -46.77, 115.45, 56.22, 115.79, 57.17, -168.2 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 284,
+					"height": 103
+				},
+				"Lips-2": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -72.91, -169.64, -73.87, 117.36, 57.13, 117.8, 58.09, -169.2 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 287,
+					"height": 131
+				}
+			},
+			"Bubble-2": {
+				"Bubble-2": { "x": -4.24, "y": 3.85, "rotation": -89.81, "width": 133, "height": 134 }
+			},
+			"Eyes-1": {
+				"Eyes-1": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -41.63, -245.56, -42.74, 88.44, 69.26, 88.81, 70.37, -245.19 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 334,
+					"height": 112
+				},
+				"Eyes-2": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -40.95, -208.56, -41.83, 56.44, 45.17, 56.73, 46.05, -208.27 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 265,
+					"height": 87
+				}
+			},
+			"Bubble": {
+				"Bubble2": {
+					"type": "mesh",
+					"path": "Bubble-1",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -73.32, -66.55, -73.76, 66.45, 60.24, 66.89, 60.68, -66.1 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 133,
+					"height": 134
+				}
+			},
+			"Light": {
+				"Light": {
+					"type": "mesh",
+					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
+					"triangles": [ 1, 2, 3, 1, 3, 0 ],
+					"vertices": [ -232.85, -204.15, -234.39, 257.85, 199.61, 259.29, 201.14, -202.71 ],
+					"hull": 4,
+					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
+					"width": 462,
+					"height": 434
+				}
+			}
+		}
+	}
+],
+"events": {
+	"DIALOG": {},
+	"WALK": {}
+},
+"animations": {
+	"DIALOG": {
+		"slots": {
+			"Lips-1": {
+				"attachment": [
+					{ "time": 0.2333, "name": "Lips-2" },
+					{ "time": 0.4667, "name": "Lips-1" },
+					{ "time": 0.7, "name": "Lips-2" },
+					{ "time": 0.9333, "name": "Lips-1" }
+				]
+			},
+			"Bubble": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.2333, "color": "ffffff00" },
+					{ "time": 0.4, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 0.9333, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff00" }
+				]
+			},
+			"Bubble-2": {
+				"color": [
+					{ "color": "ffffff00", "curve": "stepped" },
+					{ "time": 0.7, "color": "ffffff00", "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7667, "color": "ffffffff", "curve": "stepped" },
+					{ "time": 1.3667, "color": "ffffffff", "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4333, "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"Bubble": {
+				"translate": [
+					{ "time": 0.2333, "x": -379.37, "y": 469.61 },
+					{ "time": 0.4333, "x": -304.51, "y": 409.72 },
+					{ "time": 0.7333, "x": -78.62, "y": 463.35 },
+					{ "time": 0.9667, "x": -36.97, "y": 439.35 }
+				],
+				"scale": [
+					{ "time": 0.2333, "x": 0.204, "y": 0.204 },
+					{ "time": 0.6667, "x": 0.882, "y": 0.882 }
+				]
+			},
+			"Bubble-2": {
+				"translate": [
+					{ "time": 0.7, "x": -379.37, "y": 469.61, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.8667, "x": -304.51, "y": 409.72, "curve": 0.149, "c3": 0.788 },
+					{ "time": 1.1333, "x": -194.39, "y": 462.97, "curve": 0.106, "c3": 0.837 },
+					{ "time": 1.4, "x": -107.81, "y": 439.12 }
+				],
+				"scale": [
+					{ "time": 0.7, "x": 0.204, "y": 0.204, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1, "x": 0.517, "y": 0.517 }
+				]
+			},
+			"Head": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3667, "y": 15.62, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.7333, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.0667, "y": 15.62, "curve": 0.25, "c3": 0.75 },
+					{ "time": 1.4333 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.2333, "name": "DIALOG" },
+			{ "time": 0.7, "name": "DIALOG" }
+		]
+	},
+	"IDLE": {
+		"slots": {
+			"Bubble": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Bubble-2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Eyes-1": {
+				"attachment": [
+					{ "time": 2.6667, "name": "Eyes-2" },
+					{ "time": 2.8667, "name": "Eyes-1" }
+				]
+			}
+		},
+		"bones": {
+			"Body": {
+				"scale": [
+					{ "x": 0.975, "y": 0.975, "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4, "x": 0.975, "y": 0.975 }
+				]
+			},
+			"Head": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 2, "y": 11.84, "curve": 0.25, "c3": 0.75 },
+					{ "time": 4 }
+				]
+			}
+		}
+	},
+	"WALK": {
+		"slots": {
+			"Bubble": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			},
+			"Bubble-2": {
+				"color": [
+					{ "color": "ffffff00" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"scale": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "y": 1.031, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667 }
+				]
+			},
+			"Head": {
+				"translate": [
+					{ "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.3333, "y": 7.51, "curve": 0.25, "c3": 0.75 },
+					{ "time": 0.6667 }
+				]
+			}
+		},
+		"events": [
+			{ "name": "WALK" }
+		]
+	}
+}
+}
