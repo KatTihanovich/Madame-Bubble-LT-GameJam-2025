@@ -1,0 +1,41 @@
+
+Cauldron .png
+size: 3404,1189
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bubble
+  rotate: false
+  xy: 2159, 146
+  size: 133, 134
+  orig: 133, 134
+  offset: 0, 0
+  index: -1
+Cauldron_B
+  rotate: false
+  xy: 1378, 16
+  size: 779, 264
+  orig: 779, 264
+  offset: 0, 0
+  index: -1
+Cauldron_F
+  rotate: false
+  xy: 1378, 282
+  size: 1230, 905
+  orig: 1230, 905
+  offset: 0, 0
+  index: -1
+Cauldron_Selection
+  rotate: false
+  xy: 2, 121
+  size: 1374, 1066
+  orig: 1374, 1066
+  offset: 0, 0
+  index: -1
+Light
+  rotate: false
+  xy: 2610, 2
+  size: 792, 1185
+  orig: 792, 1185
+  offset: 0, 0
+  index: -1
