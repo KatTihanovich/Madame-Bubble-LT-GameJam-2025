@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bb0e614d0c08c4c5ea70acb7d743bf83
+guid: 36725aabcc2bb4f34a92e3643d22fad8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1869233678064742185
-    second: video-pause-button_0
+      213: 8076872692171241280
+    second: Music_on_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: video-pause-button_0
+      name: Music_on_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 512
-        height: 512
+        x: 37
+        y: 28
+        width: 123
+        height: 150
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 92fee37602ad0f910800000000000000
-      internalID: 1869233678064742185
+      spriteID: 0477be0abe0d61070800000000000000
+      internalID: 8076872692171241280
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      video-pause-button_0: 1869233678064742185
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

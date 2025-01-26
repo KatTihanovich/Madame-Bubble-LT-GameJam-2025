@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 22060f40d701b4eeea41cd0b3810e4d2
+guid: 078f424b14cb74162b3401c6ad9e724e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7164935434912061096
-    second: no-sound_0
+      213: -7881222312694879401
+    second: Curseor__0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: no-sound_0
+      name: Curseor__0
       rect:
         serializedVersion: 2
-        x: 41
-        y: 41
-        width: 430
-        height: 430
+        x: 6
+        y: 38
+        width: 187
+        height: 123
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8592573fe29019c90800000000000000
-      internalID: -7164935434912061096
+      spriteID: 75b60f7201640a290800000000000000
+      internalID: -7881222312694879401
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      no-sound_0: -7164935434912061096
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
