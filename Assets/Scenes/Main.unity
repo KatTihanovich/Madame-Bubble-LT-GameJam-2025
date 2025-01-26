@@ -228,7 +228,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &6002882
 RectTransform:
   m_ObjectHideFlags: 0
@@ -291,7 +291,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6002884}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 527503956}
+        m_TargetAssemblyTypeName: PageFlipper, Assembly-CSharp
+        m_MethodName: NextPages
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &6002884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2467,7 +2479,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &344036528
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3475,27 +3487,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86e95e0c8fd83284eb653979d1497da9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pageSpreads:
+  pages:
   - {fileID: 2117785396}
-  - {fileID: 1084051365}
   - {fileID: 1260124839}
-  - {fileID: 1084051365}
   - {fileID: 1090878972}
-  - {fileID: 1084051365}
   - {fileID: 1800398679}
-  - {fileID: 1084051365}
   - {fileID: 538091728}
-  - {fileID: 1084051365}
   - {fileID: 1917786976}
   - {fileID: 1084051365}
-  - {fileID: 1084051365}
-  shadowPanel: {fileID: 344036527}
   nextButton: {fileID: 6002883}
   previousButton: {fileID: 1792795389}
-  crossButton: {fileID: 804602371}
-  rightArrowButton: {fileID: 6002883}
-  leftArrowButton: {fileID: 1792795389}
-  buttonContainer: {fileID: 0}
 --- !u!114 &527503957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4512,7 +4513,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &804602370
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8837,7 +8838,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 700274940}
         m_TargetAssemblyTypeName: ConfirmationScript, Assembly-CSharp
-        m_MethodName: Resume
+        m_MethodName: Pause
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8903,7 +8904,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1792795388
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8966,7 +8967,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1792795390}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 527503956}
+        m_TargetAssemblyTypeName: PageFlipper, Assembly-CSharp
+        m_MethodName: PreviousPages
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1792795390
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9393,7 +9406,7 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
-  m_UseSpriteMesh: 0
+  m_UseSpriteMesh: 1
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1874584310
 CanvasRenderer:
