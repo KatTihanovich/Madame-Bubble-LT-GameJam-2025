@@ -2361,6 +2361,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  nextButton: {fileID: 0}
+  previousButton: {fileID: 0}
 --- !u!114 &527503957
 MonoBehaviour:
   m_ObjectHideFlags: 0
