@@ -1000,7 +1000,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.452
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1187,7 +1187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MusicSource: {fileID: 1722851076}
   FXSource: {fileID: 1369737265}
-  background: {fileID: 8300000, guid: acd81fb0bf3464175a4d6a510260041a, type: 3}
+  background: {fileID: 8300000, guid: 959ef0592f942478596682fb3c462189, type: 3}
   text: {fileID: 8300000, guid: a2b2e50ed6ace472fb81c0d882465d51, type: 3}
 --- !u!4 &1877247253
 Transform:
