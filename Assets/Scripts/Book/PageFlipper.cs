@@ -1,23 +1,38 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI; // Для работы с UI
 
 public class PageFlipper : MonoBehaviour
 {
-    // List of all pages (assign these in the Unity Inspector)
+    // Список всех страниц (назначается в инспекторе)
     public List<GameObject> pages;
 
-    // Index of the first visible page (always display two pages)
+    // Индекс первой отображаемой страницы (всегда показываются две страницы)
     private int currentPage = 0;
+
+    // UI-кнопки (назначаются в инспекторе)
+    public Button nextButton;
+    public Button previousButton;
 
     void Start()
     {
-        // Initialize by showing the first two pages
+        // Инициализация: показать первые две страницы
         UpdatePageVisibility();
+
+        // Назначение методов кнопкам
+        if (nextButton != null)
+        {
+            nextButton.onClick.AddListener(NextPages);
+        }
+        if (previousButton != null)
+        {
+            previousButton.onClick.AddListener(PreviousPages);
+        }
     }
 
     void Update()
     {
-        // Listen for arrow key inputs
+        // Обработка нажатий на стрелки клавиатуры
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
             NextPages();
@@ -28,29 +43,39 @@ public class PageFlipper : MonoBehaviour
         }
     }
 
-    void NextPages()
+    public void NextPages()
     {
-        // Move to the next two pages if there are more pages available
+        // Переход к следующим двум страницам, если это возможно
         if (currentPage < pages.Count - 2)
         {
             currentPage += 2;
+            Debug.Log("Next Pages: " + currentPage); // Отладка
             UpdatePageVisibility();
+        }
+        else
+        {
+            Debug.Log("No more pages to go forward!");
         }
     }
 
-    void PreviousPages()
+    public void PreviousPages()
     {
-        // Move to the previous two pages if possible
+        // Переход к предыдущим двум страницам, если это возможно
         if (currentPage > 0)
         {
             currentPage -= 2;
+            Debug.Log("Previous Pages: " + currentPage); // Отладка
             UpdatePageVisibility();
+        }
+        else
+        {
+            Debug.Log("No more pages to go back!");
         }
     }
 
     void UpdatePageVisibility()
     {
-        // Show the current two pages and hide all others
+        // Обновление видимости страниц: показывать только текущие две
         for (int i = 0; i < pages.Count; i++)
         {
             if (i == currentPage || i == currentPage + 1)
@@ -61,6 +86,22 @@ public class PageFlipper : MonoBehaviour
             {
                 pages[i].SetActive(false);
             }
+        }
+
+        // Обновление состояния кнопок (например, если нельзя листать дальше)
+        UpdateButtonInteractivity();
+    }
+
+    void UpdateButtonInteractivity()
+    {
+        // Активировать или деактивировать кнопки в зависимости от текущей страницы
+        if (previousButton != null)
+        {
+            previousButton.interactable = currentPage > 0;
+        }
+        if (nextButton != null)
+        {
+            nextButton.interactable = currentPage < pages.Count - 2;
         }
     }
 }

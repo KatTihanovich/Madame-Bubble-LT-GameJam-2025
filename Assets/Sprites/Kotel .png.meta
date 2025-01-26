@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kotel _0: 3673672685620489546
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

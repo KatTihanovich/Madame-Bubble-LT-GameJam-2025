@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Amulet_Selection_0: 9129361866875679930
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
