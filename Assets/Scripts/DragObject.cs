@@ -3,8 +3,12 @@ using UnityEngine;
 public class DragObject : MonoBehaviour
 {
     private Camera _mainCamera; 
-    private bool _isDragging;   
+    private bool _isDragging;
 
+    private void OnEnable()
+    {
+        _isDragging = false;
+    }
     private void Start()
     {
         _mainCamera = Camera.main;  
