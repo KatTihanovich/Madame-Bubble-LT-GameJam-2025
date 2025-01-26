@@ -1,107 +1,194 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI; // Для работы с UI
+using UnityEngine.UI;
 
 public class PageFlipper : MonoBehaviour
 {
-    // Список всех страниц (назначается в инспекторе)
-    public List<GameObject> pages;
+    // List of page spreads (each GameObject represents a spread with two pages on one image)
+    public List<GameObject> pageSpreads;
 
-    // Индекс первой отображаемой страницы (всегда показываются две страницы)
-    private int currentPage = 0;
+    // Index of the current spread
+    private int currentSpread = 0;
 
-    // UI-кнопки (назначаются в инспекторе)
+    // Shadow panel overlay (assign in the Inspector)
+    public GameObject shadowPanel;
+
+    // UI Buttons (assign in the Inspector)
     public Button nextButton;
     public Button previousButton;
+    public Button crossButton;
+
+    // UI Arrow Buttons (assign in the Inspector)
+    public Button rightArrowButton;
+    public Button leftArrowButton;
+
+    // Container for all buttons (optional grouping)
+    public GameObject buttonContainer;
 
     void Start()
     {
-        // Инициализация: показать первые две страницы
-        UpdatePageVisibility();
+        // Initialize: show the first spread and shadow panel
+        ShowBook();
 
-        // Назначение методов кнопкам
+        // Assign listeners for navigation buttons
         if (nextButton != null)
         {
-            nextButton.onClick.AddListener(NextPages);
+            nextButton.onClick.AddListener(NextSpread);
         }
         if (previousButton != null)
         {
-            previousButton.onClick.AddListener(PreviousPages);
+            previousButton.onClick.AddListener(PreviousSpread);
+        }
+
+        // Assign listeners for on-screen arrow buttons
+        if (rightArrowButton != null)
+        {
+            rightArrowButton.onClick.AddListener(NextSpread);
+        }
+        if (leftArrowButton != null)
+        {
+            leftArrowButton.onClick.AddListener(PreviousSpread);
+        }
+
+        // Assign listener for the cross button
+        if (crossButton != null)
+        {
+            crossButton.onClick.AddListener(CloseBook);
         }
     }
 
     void Update()
     {
-        // Обработка нажатий на стрелки клавиатуры
+        // Handle keyboard input for flipping pages
         if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            NextPages();
+            NextSpread();
         }
         else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
-            PreviousPages();
+            PreviousSpread();
         }
     }
 
-    public void NextPages()
+    public void NextSpread()
     {
-        // Переход к следующим двум страницам, если это возможно
-        if (currentPage < pages.Count - 2)
+        // Go to the next spread, if possible
+        if (currentSpread < pageSpreads.Count - 1)
         {
-            currentPage += 2;
-            Debug.Log("Next Pages: " + currentPage); // Отладка
+            currentSpread++;
+            Debug.Log("Next Spread: " + currentSpread); // Debug
             UpdatePageVisibility();
         }
         else
         {
-            Debug.Log("No more pages to go forward!");
+            Debug.Log("No more spreads to go forward!");
         }
     }
 
-    public void PreviousPages()
+    public void PreviousSpread()
     {
-        // Переход к предыдущим двум страницам, если это возможно
-        if (currentPage > 0)
+        // Go to the previous spread, if possible
+        if (currentSpread > 0)
         {
-            currentPage -= 2;
-            Debug.Log("Previous Pages: " + currentPage); // Отладка
+            currentSpread--;
+            Debug.Log("Previous Spread: " + currentSpread); // Debug
             UpdatePageVisibility();
         }
         else
         {
-            Debug.Log("No more pages to go back!");
+            Debug.Log("No more spreads to go back!");
         }
     }
 
     void UpdatePageVisibility()
     {
-        // Обновление видимости страниц: показывать только текущие две
-        for (int i = 0; i < pages.Count; i++)
+        // Update the visibility of the page spreads
+        for (int i = 0; i < pageSpreads.Count; i++)
         {
-            if (i == currentPage || i == currentPage + 1)
-            {
-                pages[i].SetActive(true);
-            }
-            else
-            {
-                pages[i].SetActive(false);
-            }
+            pageSpreads[i].SetActive(i == currentSpread);
         }
 
-        // Обновление состояния кнопок (например, если нельзя листать дальше)
+        // Update button interactivity
         UpdateButtonInteractivity();
     }
 
     void UpdateButtonInteractivity()
     {
-        // Активировать или деактивировать кнопки в зависимости от текущей страницы
+        // Enable or disable buttons based on the current spread
         if (previousButton != null)
         {
-            previousButton.interactable = currentPage > 0;
+            previousButton.interactable = currentSpread > 0;
         }
         if (nextButton != null)
         {
-            nextButton.interactable = currentPage < pages.Count - 2;
+            nextButton.interactable = currentSpread < pageSpreads.Count - 1;
         }
+
+        // Update arrow button interactivity (if separate from next/previous buttons)
+        if (rightArrowButton != null)
+        {
+            rightArrowButton.interactable = currentSpread < pageSpreads.Count - 1;
+        }
+        if (leftArrowButton != null)
+        {
+            leftArrowButton.interactable = currentSpread > 0;
+        }
+    }
+
+    public void ShowBook()
+    {
+        // Enable the shadow panel and all UI buttons
+        if (shadowPanel != null)
+        {
+            shadowPanel.SetActive(true);
+        }
+
+        if (buttonContainer != null)
+        {
+            buttonContainer.SetActive(true); // Optional grouping for buttons
+        }
+        else
+        {
+            // Enable buttons individually if no container is used
+            if (nextButton != null) nextButton.gameObject.SetActive(true);
+            if (previousButton != null) previousButton.gameObject.SetActive(true);
+            if (crossButton != null) crossButton.gameObject.SetActive(true);
+            if (rightArrowButton != null) rightArrowButton.gameObject.SetActive(true);
+            if (leftArrowButton != null) leftArrowButton.gameObject.SetActive(true);
+        }
+
+        // Show the first spread
+        UpdatePageVisibility();
+    }
+
+    public void CloseBook()
+    {
+        // Disable the shadow panel and all UI buttons
+        if (shadowPanel != null)
+        {
+            shadowPanel.SetActive(false);
+        }
+
+        if (buttonContainer != null)
+        {
+            buttonContainer.SetActive(false); // Optional grouping for buttons
+        }
+        else
+        {
+            // Disable buttons individually if no container is used
+            if (nextButton != null) nextButton.gameObject.SetActive(false);
+            if (previousButton != null) previousButton.gameObject.SetActive(false);
+            if (crossButton != null) crossButton.gameObject.SetActive(false);
+            if (rightArrowButton != null) rightArrowButton.gameObject.SetActive(false);
+            if (leftArrowButton != null) leftArrowButton.gameObject.SetActive(false);
+        }
+
+        // Hide all spreads
+        foreach (var spread in pageSpreads)
+        {
+            spread.SetActive(false);
+        }
+
+        Debug.Log("Book Closed!");
     }
 }
