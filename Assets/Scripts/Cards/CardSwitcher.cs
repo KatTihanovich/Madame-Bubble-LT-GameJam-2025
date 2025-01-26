@@ -19,25 +19,25 @@ public class CardSwitcher : MonoBehaviour
 
     // Метод, вызываемый при клике на карточку
     public void OnCardClick(GameObject clickedCard)
+{
+    // Сначала сбросьте все карты и кнопки
+    foreach (var cardData in cards)
     {
-        foreach (var cardData in cards)
-        {
-            // Если карточка совпадает с нажатой
-            if (cardData.card == clickedCard)
-            {
-                // Сделать Red Circle видимым
-                redCircle.SetActive(true);
+        cardData.card.SetActive(false);             // Скрыть карту
+        cardData.cardButton.interactable = false;  // Сделать кнопку неактивной
+    }
 
-                // Оставить только выбранную карту видимой
-                cardData.card.SetActive(true);
-                cardData.cardButton.interactable = true; // Включить кнопку только для выбранной карты
-            }
-            else
-            {
-                // Остальные карты отключить
-                cardData.card.SetActive(false);
-                cardData.cardButton.interactable = false; // Отключить их кнопки
-            }
+    // Теперь активируйте только выбранную карту и кнопку
+    foreach (var cardData in cards)
+    {
+        if (cardData.card == clickedCard)
+        {
+            cardData.card.SetActive(true);              // Показать выбранную карту
+            cardData.cardButton.interactable = true;    // Сделать кнопку активной
         }
     }
+
+    // Сделать Red Circle видимым
+    redCircle.SetActive(true);
+}
 }

@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      3 common view_0: 1063850400650097118
+      3 common view_1: -4726964493797065685
+      3 common view_2: -4710576853112526416
+      3 common view_3: -8058595067489753452
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
