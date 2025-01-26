@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Audio
+  - Ingredients
   layers:
   - Default
   - TransparentFX
@@ -40,6 +42,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 1058054395
+    locked: 0
+  - name: Items
+    uniqueID: 3069919757
     locked: 0
   m_RenderingLayers:
   - Default

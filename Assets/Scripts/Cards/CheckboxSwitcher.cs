@@ -27,6 +27,7 @@ public class CheckboxSwitcher : MonoBehaviour
         if (index >= 0 && index < checkboxes.Length)
         {
             checkboxes[index].checkbox.SetActive(true); // Показать выбранную галочку
+            
         }
     }
 }

@@ -96,5 +96,6 @@ public class PageFlipper : MonoBehaviour
         {
             nextButton.interactable = currentPage < pages.Count - 1;
         }
+
     }
 }

@@ -1,16 +1,19 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using System.Collections;
 
 public class Cauldron : MonoBehaviour
 {
     [SerializeField] private Sprite[] _listCauldronSprite;
-    [SerializeField] private Image[] _listImagesIngredients; 
-    [SerializeField] private Image _progressBarImage; 
+    [SerializeField] private Image[] _listImagesIngredients;
+    [SerializeField] private GameObject _panelCaudron;
+    [SerializeField] private GameObject[] _personalItems;
 
     private List<IngredientData> _currentIngredients = new List<IngredientData>();
     private PotionController _potionController;
+    private ProgressBarTimer _progressBarTimer;
+    private DropPotion _dropPotion;
 
     private bool _isPotionCreated;
     private string _potionName;
@@ -18,15 +21,28 @@ public class Cauldron : MonoBehaviour
     private void Start()
     {
         _potionController = FindFirstObjectByType<PotionController>();
-        _progressBarImage.fillAmount = 0;
-        _progressBarImage.gameObject.SetActive(false);
+        _progressBarTimer = FindFirstObjectByType<ProgressBarTimer>();
+        _dropPotion = FindFirstObjectByType<DropPotion>();
+
+        if (_progressBarTimer != null)
+        {
+            _progressBarTimer.OnTimerCompleted += ShowPotionResult;
+        }
     }
 
     private void OnEnable()
     {
-      
         ResetCauldron();
     }
+
+    private void OnDestroy()
+    {
+        if (_progressBarTimer != null)
+        {
+            _progressBarTimer.OnTimerCompleted -= ShowPotionResult;
+        }
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Ingredients"))
@@ -34,7 +50,6 @@ public class Cauldron : MonoBehaviour
             string ingredientName = collision.gameObject.name;
             Sprite ingredientSprite = collision.GetComponent<SpriteRenderer>()?.sprite;
 
-   
             Ingredient ingredientComponent = collision.GetComponent<Ingredient>();
             if (ingredientComponent == null)
             {
@@ -42,12 +57,11 @@ public class Cauldron : MonoBehaviour
                 return;
             }
 
-   
             _currentIngredients.Add(new IngredientData
             {
                 Name = ingredientName,
                 Sprite = ingredientSprite,
-                StartPosition = ingredientComponent.StartPosition, 
+                StartPosition = ingredientComponent.StartPosition,
                 GameObject = collision.gameObject
             });
 
@@ -56,6 +70,11 @@ public class Cauldron : MonoBehaviour
 
             Debug.Log($"Добавлен ингредиент: {ingredientName}");
         }
+    }
+
+    public void SetPersonaItems(int index) 
+    {
+        _personalItems[index].SetActive(true);
     }
 
     public void CheckPotion()
@@ -67,42 +86,32 @@ public class Cauldron : MonoBehaviour
                 if (IsMatchingRecipe(potion.ListIngredients))
                 {
                     _potionName = potion.Name;
-           
+
                     ChangeCauldronSprite(potion.Name);
 
-                    StartPotionTimer(); 
+                    _panelCaudron.SetActive(false);
+                    StartPotionTimer(5f);
                     return;
                 }
             }
-            _potionName = "Черное";
-            StartPotionTimer();
+            _panelCaudron.SetActive(false);
+            _potionName = "0";
+            StartPotionTimer(5f);
         }
     }
 
-    private void StartPotionTimer()
+    private void StartPotionTimer(float duration)
     {
-        _progressBarImage.gameObject.SetActive(true); 
-        StartCoroutine(TimerCoroutine(5f));
-    }
-
-    private IEnumerator TimerCoroutine(float duration)
-    {
-        float elapsedTime = 0f;
-
-        while (elapsedTime < duration)
+        if (_progressBarTimer != null)
         {
-            elapsedTime += Time.deltaTime;
-            _progressBarImage.fillAmount = elapsedTime / duration; 
-            yield return null;
+            _progressBarTimer.StartTimer(duration);
         }
-
-        _progressBarImage.fillAmount = 1f; 
-        ShowPotionResult(); 
     }
 
     private void ShowPotionResult()
     {
-        Debug.Log("Результат создания зелья готов! " + _potionName );
+        Debug.Log("Результат создания зелья готов! " + _potionName);
+        _dropPotion.Drop(Convert.ToInt32(_potionName));
     }
 
     private bool IsMatchingRecipe(string[] recipeIngredients)
@@ -124,14 +133,12 @@ public class Cauldron : MonoBehaviour
 
     private void UpdateIngredientImages()
     {
-    
         foreach (var image in _listImagesIngredients)
         {
             image.sprite = null;
             image.enabled = false;
         }
 
-    
         for (int i = 0; i < _currentIngredients.Count && i < _listImagesIngredients.Length; i++)
         {
             _listImagesIngredients[i].sprite = _currentIngredients[i].Sprite;
@@ -145,16 +152,13 @@ public class Cauldron : MonoBehaviour
 
         IngredientData ingredientData = _currentIngredients[ingredientNumber];
 
-
         ingredientData.GameObject.transform.localPosition = ingredientData.StartPosition;
         Debug.Log(ingredientData.GameObject.transform.localPosition);
         ingredientData.GameObject.SetActive(true);
 
-    
         _currentIngredients.RemoveAt(ingredientNumber);
-        UpdateIngredientImages(); 
+        UpdateIngredientImages();
     }
-
 
     public void ResetCauldron()
     {
@@ -162,8 +166,8 @@ public class Cauldron : MonoBehaviour
         RemoveIngredient(1);
         RemoveIngredient(2);
 
+        RemoveAll();
         _currentIngredients.Clear();
-
 
         foreach (var image in _listImagesIngredients)
         {
@@ -171,21 +175,30 @@ public class Cauldron : MonoBehaviour
             image.enabled = false;
         }
 
-       
-        _progressBarImage.fillAmount = 0;
-        _progressBarImage.gameObject.SetActive(false);
+        if (_progressBarTimer != null)
+        {
+            _progressBarTimer.ResetTimer();
+        }
 
         _potionName = string.Empty;
 
         Debug.Log("Котел был сброшен.");
     }
 
+    private void RemoveAll() 
+    {
+        foreach (IngredientData ingredientData in _currentIngredients)  
+        {
+            ingredientData.GameObject.transform.localPosition = ingredientData.StartPosition;
+            ingredientData.GameObject.SetActive(true);
+        }    
+    }
 
     private class IngredientData
     {
         public string Name;
         public Sprite Sprite;
         public Vector3 StartPosition;
-        public GameObject GameObject;   
+        public GameObject GameObject;
     }
 }

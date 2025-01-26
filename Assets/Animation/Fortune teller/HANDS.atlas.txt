@@ -1,0 +1,174 @@
+
+HANDS.png
+size: 3479,1305
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+L_Index-1
+  rotate: true
+  xy: 1496, 2
+  size: 279, 396
+  orig: 279, 396
+  offset: 0, 0
+  index: -1
+L_Index-2
+  rotate: true
+  xy: 1479, 283
+  size: 121, 463
+  orig: 121, 463
+  offset: 0, 0
+  index: -1
+L_Middle-1
+  rotate: true
+  xy: 774, 13
+  size: 224, 359
+  orig: 224, 359
+  offset: 0, 0
+  index: -1
+L_Middle-2
+  rotate: true
+  xy: 1944, 294
+  size: 110, 441
+  orig: 110, 441
+  offset: 0, 0
+  index: -1
+L_Palm
+  rotate: false
+  xy: 1479, 406
+  size: 737, 897
+  orig: 737, 897
+  offset: 0, 0
+  index: -1
+L_Pinky-1
+  rotate: true
+  xy: 2478, 35
+  size: 114, 269
+  orig: 114, 269
+  offset: 0, 0
+  index: -1
+L_Pinky-2
+  rotate: true
+  xy: 1894, 35
+  size: 114, 290
+  orig: 114, 290
+  offset: 0, 0
+  index: -1
+L_Ring-1
+  rotate: true
+  xy: 2749, 3
+  size: 168, 363
+  orig: 168, 363
+  offset: 0, 0
+  index: -1
+L_Ring-2
+  rotate: true
+  xy: 1944, 151
+  size: 141, 383
+  orig: 141, 383
+  offset: 0, 0
+  index: -1
+L_Thumb-1
+  rotate: false
+  xy: 2957, 941
+  size: 503, 362
+  orig: 503, 362
+  offset: 0, 0
+  index: -1
+L_Thumb-2
+  rotate: false
+  xy: 2, 19
+  size: 384, 218
+  orig: 384, 218
+  offset: 0, 0
+  index: -1
+L_Wrist
+  rotate: true
+  xy: 2, 239
+  size: 507, 1475
+  orig: 507, 1475
+  offset: 0, 0
+  index: -1
+R_Index-1
+  rotate: true
+  xy: 2957, 173
+  size: 279, 396
+  orig: 279, 396
+  offset: 0, 0
+  index: -1
+R_Index-2
+  rotate: true
+  xy: 2957, 454
+  size: 121, 463
+  orig: 121, 463
+  offset: 0, 0
+  index: -1
+R_Middle-1
+  rotate: true
+  xy: 1135, 13
+  size: 224, 359
+  orig: 224, 359
+  offset: 0, 0
+  index: -1
+R_Middle-2
+  rotate: true
+  xy: 2387, 294
+  size: 110, 441
+  orig: 110, 441
+  offset: 0, 0
+  index: -1
+R_Palm
+  rotate: false
+  xy: 2218, 406
+  size: 737, 897
+  orig: 737, 897
+  offset: 0, 0
+  index: -1
+R_Pinky-1
+  rotate: false
+  xy: 3355, 183
+  size: 114, 269
+  orig: 114, 269
+  offset: 0, 0
+  index: -1
+R_Pinky-2
+  rotate: true
+  xy: 2186, 35
+  size: 114, 290
+  orig: 114, 290
+  offset: 0, 0
+  index: -1
+R_Ring-1
+  rotate: true
+  xy: 3114, 3
+  size: 168, 363
+  orig: 168, 363
+  offset: 0, 0
+  index: -1
+R_Ring-2
+  rotate: true
+  xy: 2329, 151
+  size: 141, 383
+  orig: 141, 383
+  offset: 0, 0
+  index: -1
+R_Thumb-1
+  rotate: false
+  xy: 2957, 577
+  size: 503, 362
+  orig: 503, 362
+  offset: 0, 0
+  index: -1
+R_Thumb-2
+  rotate: false
+  xy: 388, 19
+  size: 384, 218
+  orig: 384, 218
+  offset: 0, 0
+  index: -1
+R_Wrist
+  rotate: true
+  xy: 2, 748
+  size: 555, 1475
+  orig: 555, 1475
+  offset: 0, 0
+  index: -1
