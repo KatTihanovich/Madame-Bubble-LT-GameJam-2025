@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Salt_shine_0: -34471900496253525
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

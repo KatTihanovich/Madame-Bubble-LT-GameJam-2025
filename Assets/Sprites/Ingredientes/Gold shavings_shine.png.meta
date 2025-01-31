@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gold shavings_shine_0: -466671325245668338
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

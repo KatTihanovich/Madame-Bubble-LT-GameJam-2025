@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sage_shine_0: 1077072933926797124
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

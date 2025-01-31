@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Frogheart_shine_0: 7161140569763138968
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

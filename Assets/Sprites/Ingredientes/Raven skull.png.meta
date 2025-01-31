@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Raven skull_0: -226657050369112382
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

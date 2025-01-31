@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sagebrush_0: 5574709413712751572
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
