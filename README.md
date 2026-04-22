@@ -66,11 +66,21 @@ and sometimes a therapist.
 ## Team Error_418
 
 PM, Game designer: Anastasiya Chyslova
+
+
 Developer: Daniil Markov
+
 Developer: Katsiaryna Tsikhanovich
+
 Developer: Alena Tsibets
+
 2D Concept Artist: Aliaksandra Naletko
+
 2D Artist: Azimova Alisa
+
 2D artist, animator: Anastasiya Khvitsko
+
 UX/UI designer: Valeryia Bozhik
+
 Sound Designer: Ilya Lasitski
+
